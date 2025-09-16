@@ -1,3 +1,13 @@
-# https://www.robotstxt.org/robotstxt.html
+# Robots.txt untuk https://dirham.my.id
+# Referensi: https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+# Izinkan semua konten
+Allow: /
+
+# (Opsional) Hindari indexing query internal (jika ada) - contoh:
+# Disallow: /*?ref=
+
+# Sitemap
+Sitemap: https://dirham.my.id/sitemap.xml
+
+# Waktu crawl serahkan ke search engine modern (tidak perlu Crawl-delay kecuali ada masalah beban)

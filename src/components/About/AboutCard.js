@@ -1,4 +1,3 @@
-import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 
@@ -8,23 +7,24 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            Halo! Saya <span className="purple">Dirham Triyadi</span> dari
+            <span className="purple"> Bekasi, Indonesia.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
+            Saat ini saya bekerja sebagai Software Developer di PT. Lintas
+            Jaringan Nusantara.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            Latar belakang akademik saya berasal dari Universitas Informatika
+            dan Bisnis Indonesia dengan gelar Sarjana Komputer.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Di luar ngoding, beberapa hal yang saya suka lakukan:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Main game
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Scroll Engineer di Facebook
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
@@ -32,9 +32,9 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Nothing last forever we can change the future."
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Dirham</footer>
         </blockquote>
       </Card.Body>
     </Card>

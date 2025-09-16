@@ -1,10 +1,9 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
+import laptopImg from "../../Assets/about.png";
 import Particle from "../Particle";
+import Aboutcard from "./AboutCard";
 import Github from "./Github";
 import Techstack from "./Techstack";
-import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 
 function About() {
@@ -22,7 +21,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+              Tentang <strong className="purple">Saya</strong>
             </h1>
             <Aboutcard />
           </Col>
@@ -31,17 +30,21 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <img
+              src={laptopImg}
+              alt="Ilustrasi tentang Dirham"
+              className="img-fluid"
+            />
           </Col>
         </Row>
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+          <strong className="purple">Skillset</strong> Profesional
         </h1>
 
         <Techstack />
 
         <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
+          <strong className="purple">Tools</strong> yang Saya Gunakan
         </h1>
         <Toolstack />
 
